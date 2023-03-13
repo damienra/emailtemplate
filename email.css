@@ -1,26 +1,36 @@
-.input-group rounded {
-    width:-10px;
+html {
+    background-color: #320cf3;
 }
 
-
-
-
-.container {
-    background-color: grey;
-    margin-top: 30px;
-    padding-bottom: 60px;
-    padding-top: 60px;
-}
-
-
-
-.border {
-    margin-bottom:50px;
-}
-
-.paperclip {
+.input-group {
+    display: flex;
+    border-radius: 25px;
+    width: -10px;
+    }
     
-    margin-left:65px;
-    margin-top: -35px;  
-}
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    margin-top: 100px;
+    padding: 60px;
+    max-width: none;
+    }
+    
+    .border {
+    margin-bottom: 50px;
+    }
+    
+    .paperclip {
+    margin-left: 65px;
+    margin-top: -37px;
+    }
 
+    .btn-outline-success {
+        color: #080606;
+        background-color: #fff;
+        border-color: #00FFFF;
+        padding: 10px;
+      }
